@@ -1,0 +1,21 @@
+import unittest
+from Magic8Ball import generate_response
+
+class TestMagic8Ball(unittest.TestCase):
+    def test_generate_response(self):
+        response = generate_response()
+        self.assertIn(response, [
+            "Yes - definitely.",
+            "It is decidedly so.",
+            "Without a doubt.",
+            "Reply hazy, try again.",
+            "Ask again later.",
+            "Better not tell you now.",
+            "My sources say no.",
+            "Outlook not so good.",
+            "Very doubtful.",
+            "Signs point to yes"
+        ])
+
+if __name__ == '__main__':
+    unittest.main()
