@@ -22,7 +22,7 @@ This Python script simulates the Magic 8-Ball, offering users playful and random
 A unit test has been included to validate the correctness of the script. Run the following command to execute the test:
 
 ```bash
-python test_magic_8_ball.py
+python Test.py
 ```
 
 This test ensures that critical functions, such as user input gathering and response generation, function as expected.
